@@ -182,36 +182,29 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="https://tecblic.vercel.app/"
                     className="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary"
                   >
-                    LineIcons
+                    Tecblic
                   </a>
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="https://react-portfolio-mocha-beta.vercel.app/"
                     className="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary"
                   >
-                    Ecommerce HTML
+                   Basic Landing page
                   </a>
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="https://portfolio-puce-one-65.vercel.app/"
                     className="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary"
                   >
-                    Ayro UI
+                   Portfolio
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="javascript:void(0)"
-                    className="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary"
-                  >
-                    PlainAdmin
-                  </a>
-                </li>
+              
               </ul>
             </div>
           </div>
@@ -621,4 +614,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

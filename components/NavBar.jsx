@@ -7,8 +7,8 @@ const NavBar = () => {
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
-            <Link>
-              <a href="/" className="navbar-logo block w-full py-5">
+            <Link href={"/"}>
+              <a  className="navbar-logo block w-full py-5">
                 <img
                   src="/images/logo-2.png"
                   alt="logo"
@@ -33,9 +33,9 @@ const NavBar = () => {
               >
                 <ul className="blcok lg:flex">
                   <li className="group relative">
-                    <Link>
+                    <Link  href={"#home"}>
                       <a
-                        href="#home"
+                       
                         className="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
                       >
                         Home
@@ -43,10 +43,10 @@ const NavBar = () => {
                     </Link>
                   </li>
                   <li className="group relative">
-                    <Link>
-                      {" "}
+                    <Link href={"#about"}>
+                     
                       <a
-                        href="#about"
+                        
                         className="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                       >
                         About
@@ -54,10 +54,10 @@ const NavBar = () => {
                     </Link>
                   </li>
                   <li className="group relative">
-                    <Link>
-                      {" "}
+                    <Link href={"#pricing"}>
+                  
                       <a
-                        href="#pricing"
+                        
                         className="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                       >
                         Pricing
@@ -65,21 +65,21 @@ const NavBar = () => {
                     </Link>
                   </li>
                   <li className="group relative">
-                    <Link>
-                      {" "}
+                    <Link  href={"#team"}>
+                  
                       <a
-                        href="#team"
+                       
                         className="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                       >
                         Team
-                      </a>{" "}
+                      </a>
                     </Link>
                   </li>
                   <li className="group relative">
-                    <Link>
-                      {" "}
+                    <Link  href={"#contact"}>
+                   
                       <a
-                        href="#contact"
+                       
                         className="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                       >
                         Contact
@@ -90,18 +90,16 @@ const NavBar = () => {
               </nav>
             </div>
             <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
-              <Link>
+              <Link href={"#"}>
                 <a
-                  href="#"
+                  
                   className="loginBtn py-3 px-7 text-base font-medium text-white hover:opacity-70"
                 >
                   Sign In
                 </a>
               </Link>
-              <Link>
-                {" "}
-                <a
-                  href="#"
+              <Link href={"#"}>            
+                <a                  
                   className="signUpBtn rounded-lg bg-white bg-opacity-20 py-3 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
                 >
                   Sign Up
@@ -115,4 +113,4 @@ const NavBar = () => {
   );
 }
 
-export default NavBar
+export default NavBar;
