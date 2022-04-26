@@ -94,7 +94,7 @@ const Testomo = () => {
                   />
                 </div>
                 <div className="ud-testimonial-meta">
-                  <h4 className="text-sm font-semibold">Sabo Masties</h4>
+                  <h4 className="text-sm font-semibold">Manish Shaw</h4>
                   <p className="text-xs text-[#969696]">Founder @ Rolex</p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ const Testomo = () => {
                   />
                 </div>
                 <div className="ud-testimonial-meta">
-                  <h4 className="text-sm font-semibold">Margin Gesmu</h4>
+                  <h4 className="text-sm font-semibold">Manish Shaw</h4>
                   <p className="text-xs text-[#969696]">Founder @ UI Hunter</p>
                 </div>
               </div>
@@ -250,14 +250,14 @@ const Testomo = () => {
                   />
                 </div>
                 <div className="ud-testimonial-meta">
-                  <h4 className="text-sm font-semibold">William Smith</h4>
+                  <h4 className="text-sm font-semibold">Manish Shaw</h4>
                   <p className="text-xs text-[#969696]">Founder @ Trorex</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap">
+        {/* <div className="flex flex-wrap">
           <div className="mx-4 w-full">
             <div className="wow fadeInUp" data-wow-delay=".2s">
               <div className="ud-title mb-8">
@@ -335,7 +335,7 @@ const Testomo = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
