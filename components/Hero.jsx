@@ -14,24 +14,24 @@ const Hero = () => {
               data-wow-delay=".2s"
             >
               <h1 className="mb-8 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug md:text-[45px] md:leading-snug uppercase">
-                Upscale your Business Website with Trendsetter Tools 
+                Upscale your Business Website with Trendsetter Tools
               </h1>
               <p className="mx-auto mb-10 max-w-[600px] text-base text-[#e4e4e4] sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed">
                 Multidisciplinary Web Template Built with Your Favourite
                 Technology - HTML Bootstrap, Tailwind and React NextJS.
               </p>
               <ul className="mb-10 flex flex-wrap items-center justify-center">
-                <li>
+                {/* <li>
                   <a
                     href="#"
                     className="inline-flex items-center justify-center rounded-lg bg-white py-4 px-6 text-center text-base font-medium text-dark transition duration-300 ease-in-out hover:text-primary hover:shadow-lg sm:px-10"
                   >
                     Download Now
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="#"
+                    href="https://www.tecblic.com/"
                     className="flex items-center py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:opacity-70 sm:px-10"
                   >
                     Get start now
