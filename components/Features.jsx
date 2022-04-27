@@ -80,8 +80,8 @@ const Features = () => {
               <p className="mb-8 text-body-color lg:mb-11">
                 Next.js is widely used by the biggest and most popular companies
                 all over the world like Netflix, Uber, Starbucks, or Twitch.
-                It’s also considered as one of the fastest-growing React
-                frameworks, perfect to work with static sites – which was the
+                Its also considered as one of the fastest-growing React
+                frameworks, perfect to work with static sites  which was the
                 hottest topic in the web development world lately.
               </p>
             </div>
@@ -121,7 +121,7 @@ const Features = () => {
               <h4 className="mb-3 text-xl font-bold text-dark">Tailwind CSS</h4>
               <p className="mb-8 text-body-color lg:mb-11">
                 The next thing big thing in the design industry of the whole web
-                is called Tailwind CSS. It's a utility-first CSS framework and
+                is called Tailwind CSS. Its a utility-first CSS framework and
                 allows us to create and design websites fast with nice and
                 subtle features, that you would be researching all day on how to
                 do. Instead of writing CSS as we are used to, we just take

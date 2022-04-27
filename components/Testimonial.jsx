@@ -14,7 +14,7 @@ const Testomo = () => {
                 What our Client Say
               </h2>
               <p className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">
-                Don't take our word for it... Read what our customers feel about
+                Dont take our word for it... Read what our customers feel about
                 our products!
               </p>
             </div>
@@ -104,8 +104,7 @@ const Testomo = () => {
           <div className="w-full px-4 md:w-1/2 lg:w-1/3">
             <div
               className="ud-single-testimonial wow fadeInUp mb-12 bg-white p-8 shadow-testimonial"
-              data-wow-delay=".15s
-              "
+              data-wow-delay=".15s"
             >
               <div className="ud-testimonial-ratings mb-3 flex items-center">
                 <span className="mr-1 text-[#fbb040]">
@@ -161,7 +160,7 @@ const Testomo = () => {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  It's an IT Business Place which attracts talent to deliver
+                  Its an IT Business Place which attracts talent to deliver
                   tech landscape in most admired manner. Superb infrastructure
                   and lovely environment compliments the delivery of work.
                 </p>
