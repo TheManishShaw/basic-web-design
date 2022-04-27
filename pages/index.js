@@ -11,6 +11,7 @@ import styles from '../styles/Home.module.css'
 import Testimonial from '../components/Testimonial'
 import Team from '../components/Team'
 import Contact from '../components/Contact'
+import Portfolio from '../components/Portfolio'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -26,7 +27,7 @@ export default function Home() {
   
     
       <Testimonial/>
- 
+    <Portfolio/>
       <Contact/>
       <Footer/>
      
