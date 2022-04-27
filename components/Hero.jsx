@@ -14,7 +14,8 @@ const Hero = () => {
               data-wow-delay=".2s"
             >
               <h1 className="mb-8 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug md:text-[45px] md:leading-snug">
-                We Create Websites, Apps,  And Admin and more.
+                Upscale your business website with trendsetter tools of website
+                and app development
               </h1>
               <p className="mx-auto mb-10 max-w-[600px] text-base text-[#e4e4e4] sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed">
                 Multidisciplinary Web Template Built with Your Favourite
@@ -32,7 +33,6 @@ const Hero = () => {
                 <li>
                   <a
                     href="#"
-            
                     className="flex items-center py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:opacity-70 sm:px-10"
                   >
                     Get start now
@@ -50,7 +50,6 @@ const Hero = () => {
                 </li>
               </ul>
               <div className="wow fadeInUp text-center" data-wow-delay=".3s">
-             
                 <img
                   src="/images/hero/brand.svg"
                   alt="image"
