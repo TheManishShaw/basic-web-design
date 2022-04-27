@@ -14,8 +14,8 @@ const Testomo = () => {
                 What our Client Say
               </h2>
               <p className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Don't take our word for it... Read what our customers feel about
+                our products!
               </p>
             </div>
           </div>
@@ -82,20 +82,21 @@ const Testomo = () => {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  Our members are so impressed. Its intuitive. Its clean.
-                  Its distraction free. If you re building a community.
+                  Its a place for people chasing IT excellence. At Tecblic you
+                  can expect superb creative abilities and business logics. Very
+                  good in UI, UX Designs and Enterprise Solutions viz. Odoo,
+                  Salesforce CRM, Power BI and RPAs
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
                 <div className="ud-testimonial-image mr-5 h-[50px] w-[50px] overflow-hidden rounded-full">
-                  <img
-                    src="/images/testimonials/author-01.png"
-                    alt="author"
-                  />
+                  <img src="/images/testimonials/author-01.png" alt="author" />
                 </div>
                 <div className="ud-testimonial-meta">
-                  <h4 className="text-sm font-semibold">Manish Shaw</h4>
-                  <p className="text-xs text-[#969696]">Founder @ Rolex</p>
+                  <h4 className="text-sm font-semibold">
+                    Deepak Singh Chauhan
+                  </h4>
+                  <p className="text-xs text-[#969696]">Business Development manager</p>
                 </div>
               </div>
             </div>
@@ -160,20 +161,18 @@ const Testomo = () => {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  Our members are so impressed. Its intuitive. Its clean.
-                  Its distraction free. If you re building a community.
+                  It's an IT Business Place which attracts talent to deliver
+                  tech landscape in most admired manner. Superb infrastructure
+                  and lovely environment compliments the delivery of work.
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
                 <div className="ud-testimonial-image mr-5 h-[50px] w-[50px] overflow-hidden rounded-full">
-                  <img
-                    src="/images/testimonials/author-02.png"
-                    alt="author"
-                  />
+                  <img src="/images/testimonials/author-02.png" alt="author" />
                 </div>
                 <div className="ud-testimonial-meta">
-                  <h4 className="text-sm font-semibold">Manish Shaw</h4>
-                  <p className="text-xs text-[#969696]">Founder @ UI Hunter</p>
+                  <h4 className="text-sm font-semibold">viral patel</h4>
+                  <p className="text-xs text-[#969696]">Developer</p>
                 </div>
               </div>
             </div>
@@ -238,20 +237,18 @@ const Testomo = () => {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  Our members are so impressed. Its intuitive. Its clean.
-                  It s distraction free. If you re building a community.
+                  Professional IT Service Providers in Ahmedabad. Contact them
+                  for quality services in UI/UX, Web & Mobile application
+                  development, IoT, AI/ML and Blockchain development.
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
                 <div className="ud-testimonial-image mr-5 h-[50px] w-[50px] overflow-hidden rounded-full">
-                  <img
-                    src="/images/testimonials/author-03.png"
-                    alt="author"
-                  />
+                  <img src="/images/testimonials/author-03.png" alt="author" />
                 </div>
                 <div className="ud-testimonial-meta">
-                  <h4 className="text-sm font-semibold">Manish Shaw</h4>
-                  <p className="text-xs text-[#969696]">Founder @ Trorex</p>
+                  <h4 className="text-sm font-semibold">Moksha Bhavsar</h4>
+                  <p className="text-xs text-[#969696]">HR</p>
                 </div>
               </div>
             </div>

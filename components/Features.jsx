@@ -14,15 +14,18 @@ const Features = () => {
                 Main Features Of Tecblic
               </h2>
               <p className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                If you want to propel your business forward, your website has to
+                meet the same standards as your competitors Tecblic will help you.
               </p>
             </div>
           </div>
         </div>
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-            <div className="wow fadeInUp group mb-12 bg-white" data-wow-delay=".1s">
+            <div
+              className="wow fadeInUp group mb-12 bg-white"
+              data-wow-delay=".1s"
+            >
               <div className="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
                 <span className="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
                 <svg
@@ -39,17 +42,16 @@ const Features = () => {
                 </svg>
               </div>
               <h4 className="mb-3 text-xl font-bold text-dark">
-                Free and Open-Source
+                What precisely is React?
               </h4>
               <p className="mb-8 text-body-color lg:mb-11">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                React.js or React overall can be viewed as an open-source
+                JavaScript library that is utilized to make a UI (UI) for web
+                applications. Respond Native then again is utilized for building
+                cross-stage portable applications. The basic structure is pretty
+                much equivalent to React however rather than utilizing web
+                parts, it utilizes local versatile parts.
               </p>
-              <a
-                href="javascript:void(0)"
-                className="text-base font-medium text-body-color hover:text-primary"
-              >
-                Learn More
-              </a>
             </div>
           </div>
           <div className="w-full px-4 md:w-1/2 lg:w-1/4">
@@ -73,21 +75,22 @@ const Features = () => {
                 </svg>
               </div>
               <h4 className="mb-3 text-xl font-bold text-dark">
-                Multipurpose Template
+                what is Next.js?
               </h4>
               <p className="mb-8 text-body-color lg:mb-11">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Next.js is widely used by the biggest and most popular companies
+                all over the world like Netflix, Uber, Starbucks, or Twitch.
+                It’s also considered as one of the fastest-growing React
+                frameworks, perfect to work with static sites – which was the
+                hottest topic in the web development world lately.
               </p>
-              <a
-                href="javascript:void(0)"
-                className="text-base font-medium text-body-color hover:text-primary"
-              >
-                Learn More
-              </a>
             </div>
           </div>
           <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-            <div className="wow fadeInUp group mb-12 bg-white" data-wow-delay=".2s">
+            <div
+              className="wow fadeInUp group mb-12 bg-white"
+              data-wow-delay=".2s"
+            >
               <div className="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
                 <span className="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
                 <svg
@@ -115,18 +118,15 @@ const Features = () => {
                   />
                 </svg>
               </div>
-              <h4 className="mb-3 text-xl font-bold text-dark">
-                High-quality Design
-              </h4>
+              <h4 className="mb-3 text-xl font-bold text-dark">Tailwind CSS</h4>
               <p className="mb-8 text-body-color lg:mb-11">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                The next thing big thing in the design industry of the whole web
+                is called Tailwind CSS. It's a utility-first CSS framework and
+                allows us to create and design websites fast with nice and
+                subtle features, that you would be researching all day on how to
+                do. Instead of writing CSS as we are used to, we just take
+                Tailwind and apply.
               </p>
-              <a
-                href="javascript:void(0)"
-                className="text-base font-medium text-body-color hover:text-primary"
-              >
-                Learn More
-              </a>
             </div>
           </div>
           <div className="w-full px-4 md:w-1/2 lg:w-1/4">
@@ -150,17 +150,16 @@ const Features = () => {
                 </svg>
               </div>
               <h4 className="mb-3 text-xl font-bold text-dark">
-                All Essential Elements
+                React-Bootstrap
               </h4>
               <p className="mb-8 text-body-color lg:mb-11">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Rebuilt with React React-Bootstrap replaces the Bootstrap
+                JavaScript. Each component has been built from scratch as a true
+                React component, without unneeded dependencies like jQuery. As
+                one of the oldest React libraries, React-Bootstrap has evolved
+                and grown alongside React, making it an excellent choice as your
+                UI foundation.
               </p>
-              <a
-                href="javascript:void(0)"
-                className="text-base font-medium text-body-color hover:text-primary"
-              >
-                Learn More
-              </a>
             </div>
           </div>
         </div>
