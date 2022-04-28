@@ -29,8 +29,11 @@ const About = () => {
                     The central purpose is to zero in on teaching participants
                     on the most proficient method to best safeguard
                     exceptionally weak business applications with intelligent
-                    board conversations and roundtables drove by informed
-                    authorities.
+                    board conversations and roundtables driven by informed
+                    authorities. With more noteworthy and more significant
+                    outcomes by conveying ideal client work on the grounds that
+                    at Tecblic, we don't compromise quality and the long
+                    stretches of heritage we are supporting.
                   </p>
                 </div>
                 <div className="text-center">

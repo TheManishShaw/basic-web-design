@@ -54,10 +54,10 @@ const Contact = () => {
                       How Can We Help?
                     </h5>
                     <p className="text-base text-body-color">
-                      info@yourdomain.com
+                      sales@techblic.com
                     </p>
                     <p className="text-base text-body-color">
-                      contact@yourdomain.com
+                      hr@tecblic.com
                     </p>
                   </div>
                 </div>
