@@ -68,7 +68,11 @@ const Portfolio = () => {
         </div>
         <div className="   text-gray-900">
           <div className=" mt-2">
-            <a href="https://traderg.in/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://traderg.in/"
+            >
               <img
                 src="/images/portfolio/product3.png"
                 alt=" random imgee"
@@ -87,9 +91,9 @@ const Portfolio = () => {
         <div className="   text-gray-900">
           <div className=" mt-2">
             <a
-              href="https://encodiq.com/"
               target="_blank"
               rel="noopener noreferrer"
+              href="https://encodiq.com/"
             >
               <img
                 src="/images/portfolio/product4.png"
@@ -108,7 +112,11 @@ const Portfolio = () => {
         </div>
         <div className="   text-gray-900">
           <div className=" mt-2">
-            <a href="https://fushiwellbeing.com/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fushiwellbeing.com/"
+            >
               <img
                 src="/images/portfolio/product5.png"
                 alt=" random imgee"
@@ -127,9 +135,9 @@ const Portfolio = () => {
         <div className="   text-gray-900">
           <div className=" mt-2">
             <a
-              href="https://www.rapidbevtech.com/"
               target="_blank"
               rel="noopener noreferrer"
+              href="https://www.rapidbevtech.com/"
             >
               <img
                 src="/images/portfolio/product6.png"
