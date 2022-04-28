@@ -128,7 +128,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="absolute bottom-0 left-0 z-[-1] h-1/2 w-full bg-[#f3f4fe] lg:h-[4%] xl:h-1/2">
-        <div className="absolute inset-0 bg-gray-300">
+        <div className="absolute inset-0 bg-[#f3f4fe]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8733.492659373163!2d72.53175672442777!3d23.024457531876713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8555282e0cbf%3A0x21347c8e76fbf474!2sTecblic%20Private%20Limited!5e0!3m2!1sen!2sin!4v1651147293578!5m2!1sen!2sin"
             width="100%"
