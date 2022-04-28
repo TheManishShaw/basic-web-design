@@ -19,7 +19,7 @@ const About = () => {
                       href="https://www.tecblic.com/about-us/"
                     >
                       {" "}
-                      About Us
+                      Know more about us
                     </a>
                   </span>
                   <h2 className="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]">
