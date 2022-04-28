@@ -82,10 +82,10 @@ const Testomo = () => {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  Its a place for people chasing IT excellence. At Tecblic you
-                  can expect superb creative abilities and business logics. Very
-                  good in UI, UX Designs and Enterprise Solutions viz. Odoo,
-                  Salesforce CRM, Power BI and RPAs
+                  Proficient IT Service Providers in Ahmedabad. Get in touch
+                  with them for quality administrations in UI/UX, Web and Mobile
+                  application advancement, IoT, AI/ML and Blockchain
+                  improvement.
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
@@ -96,7 +96,9 @@ const Testomo = () => {
                   <h4 className="text-sm font-semibold">
                     Deepak Singh Chauhan
                   </h4>
-                  <p className="text-xs text-[#969696]">Business Development manager</p>
+                  <p className="text-xs text-[#969696]">
+                    Business Development manager
+                  </p>
                 </div>
               </div>
             </div>
@@ -107,16 +109,7 @@ const Testomo = () => {
               data-wow-delay=".15s"
             >
               <div className="ud-testimonial-ratings mb-3 flex items-center">
-                <span className="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    className="fill-current"
-                  >
-                    <path d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
-                  </svg>
-                </span>
+              
                 <span className="mr-1 text-[#fbb040]">
                   <svg
                     width="18"
@@ -160,9 +153,9 @@ const Testomo = () => {
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  Its an IT Business Place which attracts talent to deliver
-                  tech landscape in most admired manner. Superb infrastructure
-                  and lovely environment compliments the delivery of work.
+                  Its an IT Business Place which draws in ability to convey tech
+                  scene in most appreciated way. Sublime foundation and
+                  wonderful climate praises the conveyance of work.
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">
@@ -223,22 +216,14 @@ const Testomo = () => {
                     <path d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
                   </svg>
                 </span>
-                <span className="mr-1 text-[#fbb040]">
-                  <svg
-                    width="18"
-                    height="16"
-                    viewBox="0 0 18 16"
-                    className="fill-current"
-                  >
-                    <path d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
-                  </svg>
-                </span>
+               
               </div>
               <div className="ud-testimonial-content mb-6">
                 <p className="text-base tracking-wide text-body-color">
-                  Professional IT Service Providers in Ahmedabad. Contact them
-                  for quality services in UI/UX, Web & Mobile application
-                  development, IoT, AI/ML and Blockchain development.
+                   At Tecblic
+                  you can anticipate amazing inventive capacities and business
+                  rationales. Awesome in UI, UX Designs and Enterprise Solutions
+                  viz. Odoo, Salesforce CRM, Power BI and RPAs
                 </p>
               </div>
               <div className="ud-testimonial-info flex items-center">

@@ -31,6 +31,8 @@ const Hero = () => {
                 </li> */}
                 <li>
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.tecblic.com/"
                     className="flex items-center py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:opacity-70 sm:px-10"
                   >

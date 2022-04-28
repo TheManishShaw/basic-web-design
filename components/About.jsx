@@ -13,28 +13,25 @@ const About = () => {
               <div className="items-center justify-between overflow-hidden border lg:flex">
                 <div className="w-full py-12 px-7 sm:px-12 md:p-16 lg:max-w-[565px] lg:py-9 lg:px-16 xl:max-w-[640px] xl:p-[70px]">
                   <span className="mb-5 inline-block bg-primary py-2 px-5 text-sm font-medium text-white">
-                    About Us
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.tecblic.com/about-us/"
+                    >
+                      {" "}
+                      About Us
+                    </a>
                   </span>
                   <h2 className="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]">
                     Brilliant Toolkit to Build Nextgen Website Faster.
                   </h2>
                   <p className="mb-9 text-base leading-relaxed text-body-color">
-                    The main thrust is to focus on educating attendees on how
-                    to best protect highly vulnerable business applications with
-                    interactive panel discussions and roundtables led by subject
-                    matter experts.
+                    The central purpose is to zero in on teaching participants
+                    on the most proficient method to best safeguard
+                    exceptionally weak business applications with intelligent
+                    board conversations and roundtables drove by informed
+                    authorities.
                   </p>
-                  <p className="mb-9 text-base leading-relaxed text-body-color">
-                    The main thrust is to focus on educating attendees on how
-                    to best protect highly vulnerable business applications with
-                    interactive panel.
-                  </p>
-                  <a
-                    href="javascript:void(0)"
-                    className="inline-flex items-center justify-center rounded bg-primary py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-90 hover:shadow-lg"
-                  >
-                    Learn More
-                  </a>
                 </div>
                 <div className="text-center">
                   <div className="relative z-10 inline-block">

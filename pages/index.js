@@ -18,7 +18,7 @@ export default function Home() {
       <Head>
         <title>Tecblic</title>
         <meta name="description" content="Create by Tecblic" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <NavBar/>
       <Hero/>
