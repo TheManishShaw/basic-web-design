@@ -3,7 +3,7 @@ import React from 'react'
 const Portfolio = () => {
   return (
     <section
-      className="bg-[#f3f4fe] pt-20 pb-20 lg:pt-[120px] lg:pb-[120px]"
+      className="bg-[#f3f4fe] pt-20 pb-20 lg:pt-[50px] lg:pb-[50px]"
     >
       <div className=" container">
         <div className="flex">
