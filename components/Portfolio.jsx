@@ -30,7 +30,14 @@ const Portfolio = () => {
             <div className="relative px-4 -mt-16  ">
               <div className="bg-white p-3 rounded-lg shadow-lg">
                 <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
-                  <a href="https://rapidion.in/"> Rapidion</a>
+                  <a
+                    href="https://rapidion.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Rapidion
+                  </a>
                 </h4>
               </div>
             </div>
@@ -47,7 +54,13 @@ const Portfolio = () => {
             <div className="relative px-4 -mt-16  ">
               <div className="bg-white p-3 rounded-lg shadow-lg">
                 <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
-                  <a href="https://www.houseofdal.com/">House of Dal</a>
+                  <a
+                    href="https://www.houseofdal.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    House of Dal
+                  </a>
                 </h4>
               </div>
             </div>
@@ -79,7 +92,13 @@ const Portfolio = () => {
             <div className="relative px-4 -mt-16  ">
               <div className="bg-white p-3 rounded-lg shadow-lg">
                 <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
-                  <a href="https://encodiq.com/">EncodiQ</a>
+                  <a
+                    href="https://encodiq.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    EncodiQ
+                  </a>
                 </h4>
               </div>
             </div>
@@ -111,7 +130,13 @@ const Portfolio = () => {
             <div className="relative px-4 -mt-16  ">
               <div className="bg-white p-3 rounded-lg shadow-lg">
                 <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
-                  <a href="https://www.rapidbevtech.com/">Rapid BevTech</a>
+                  <a
+                    href="https://www.rapidbevtech.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Rapid BevTech
+                  </a>
                 </h4>
               </div>
             </div>
