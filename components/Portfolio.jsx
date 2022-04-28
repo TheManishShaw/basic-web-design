@@ -19,7 +19,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="container grid xl:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-4 ">
+      <div className="container grid xl:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-4 mb-8 ">
         <div className="   text-gray-900">
           <div className=" mt-2">
             <img
