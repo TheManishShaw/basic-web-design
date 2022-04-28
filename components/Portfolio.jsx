@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div className=" container xl:px-8 xl:py-10 pb-20">
+    <div className=" container xl:px-8 xl:py-10 pb-20 bg-[#f3f4fe]">
       <div className="flex">
         <div className="mx-4 w-full">
           <div className="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
@@ -151,7 +151,7 @@ const Portfolio = () => {
                   </h4>
                 </div>
               </div>
-            </a>  
+            </a>
           </div>
         </div>
       </div>
