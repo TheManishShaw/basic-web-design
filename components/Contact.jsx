@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id="contact" className="relative py-20 md:py-[120px]">
+    <section id="contact" className="relative py-15 md:py-[80px]">
       <div className="absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#f3f4fe] lg:h-[45%] xl:h-1/2"></div>
       <div className="container px-4">
         <div className="-mx-4 flex flex-wrap items-center">
@@ -57,7 +57,7 @@ const Contact = () => {
                       sales@techblic.com
                     </p>
                     <p className="text-base text-body-color">
-                      hr@tecblic.com
+                      sales@techblic.com
                     </p>
                   </div>
                 </div>
@@ -75,9 +75,7 @@ const Contact = () => {
               </h3>
               <form>
                 <div className="mb-6">
-                  <label  className="block text-xs text-dark">
-                    Full Name*
-                  </label>
+                  <label className="block text-xs text-dark">Full Name*</label>
                   <input
                     type="text"
                     name="fullName"
@@ -86,9 +84,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="mb-6">
-                  <label className="block text-xs text-dark">
-                    Email*
-                  </label>
+                  <label className="block text-xs text-dark">Email*</label>
                   <input
                     type="email"
                     name="email"
@@ -97,9 +93,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="mb-6">
-                  <label  className="block text-xs text-dark">
-                    Phone*
-                  </label>
+                  <label className="block text-xs text-dark">Phone*</label>
                   <input
                     type="text"
                     name="phone"
@@ -108,9 +102,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="mb-6">
-                  <label className="block text-xs text-dark">
-                    Message*
-                  </label>
+                  <label className="block text-xs text-dark">Message*</label>
                   <textarea
                     name="message"
                     rows="1"
