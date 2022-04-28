@@ -30,29 +30,13 @@ const Portfolio = () => {
             <div className="relative px-4 -mt-16  ">
               <div className="bg-white p-3 rounded-lg shadow-lg">
                 <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
-                  Website 1
+                  <a href="https://rapidion.in/"> Rapidion</a>
                 </h4>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="   text-gray-900">
-          <div className=" mt-2">
-            <img
-              src="/images/portfolio/product1.png"
-              alt=" random imgee"
-              className="w-full h-80 object-cover object-center rounded-lg shadow-md motion-safe:hover:scale-105 transition ease-in-out duration-700 ..."
-            />
-            <div className="relative px-4 -mt-16  ">
-              <div className="bg-white p-3 rounded-lg shadow-lg">
-                <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
-                  Website 1
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="   text-gray-900">
           <div className=" mt-2">
             <img
@@ -63,7 +47,71 @@ const Portfolio = () => {
             <div className="relative px-4 -mt-16  ">
               <div className="bg-white p-3 rounded-lg shadow-lg">
                 <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
-                  Website 1
+                  <a href="https://www.houseofdal.com/">House of Dal</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="   text-gray-900">
+          <div className=" mt-2">
+            <img
+              src="/images/portfolio/product3.png"
+              alt=" random imgee"
+              className="w-full h-80 object-cover object-center rounded-lg shadow-md motion-safe:hover:scale-105 transition ease-in-out duration-700 ..."
+            />
+            <div className="relative px-4 -mt-16  ">
+              <div className="bg-white p-3 rounded-lg shadow-lg">
+                <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
+                  <a href="https://traderg.in/">TraderG</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="   text-gray-900">
+          <div className=" mt-2">
+            <img
+              src="/images/portfolio/product4.png"
+              alt=" random imgee"
+              className="w-full h-80 object-cover object-center rounded-lg shadow-md motion-safe:hover:scale-105 transition ease-in-out duration-700 ..."
+            />
+            <div className="relative px-4 -mt-16  ">
+              <div className="bg-white p-3 rounded-lg shadow-lg">
+                <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
+                  <a href="https://encodiq.com/">EncodiQ</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="   text-gray-900">
+          <div className=" mt-2">
+            <img
+              src="/images/portfolio/product5.png"
+              alt=" random imgee"
+              className="w-full h-80 object-cover object-center rounded-lg shadow-md motion-safe:hover:scale-105 transition ease-in-out duration-700 ..."
+            />
+            <div className="relative px-4 -mt-16  ">
+              <div className="bg-white p-3 rounded-lg shadow-lg">
+                <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
+                  <a href="https://fushiwellbeing.com/">Fushi well Being</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="   text-gray-900">
+          <div className=" mt-2">
+            <img
+              src="/images/portfolio/product6.png"
+              alt=" random imgee"
+              className="w-full h-80 object-cover object-center rounded-lg shadow-md motion-safe:hover:scale-105 transition ease-in-out duration-700 ..."
+            />
+            <div className="relative px-4 -mt-16  ">
+              <div className="bg-white p-3 rounded-lg shadow-lg">
+                <h4 className=" text-xl font-semibold uppercase leading-tight truncate text-center">
+                  <a href="https://www.rapidbevtech.com/">Rapid BevTech</a>
                 </h4>
               </div>
             </div>
