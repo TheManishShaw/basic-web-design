@@ -14,8 +14,9 @@ const Features = () => {
                 Main Features Of Tecblic
               </h2>
               <p className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">
-                If you want to propel your business forward, your website has to
-                meet the same standards as your competitors Tecblic will help you.
+                Searching for an ally to overhaul your business with a confided
+                in brand. Indeed, then Tecblic at your administrations. From
+                Scratch to building a brand
               </p>
             </div>
           </div>
@@ -79,10 +80,10 @@ const Features = () => {
               </h4>
               <p className="mb-8 text-body-color lg:mb-11">
                 Next.js is widely used by the biggest and most popular companies
-                all over the world like Netflix, Uber, Starbucks, or Twitch.
-                Its also considered as one of the fastest-growing React
-                frameworks, perfect to work with static sites  which was the
-                hottest topic in the web development world lately.
+                all over the world like Netflix, Uber, Starbucks, or Twitch. Its
+                also considered as one of the fastest-growing React frameworks,
+                perfect to work with static sites which was the hottest topic in
+                the web development world lately.
               </p>
             </div>
           </div>
