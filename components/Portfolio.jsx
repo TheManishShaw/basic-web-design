@@ -23,9 +23,9 @@ const Portfolio = () => {
         <div className="   text-gray-900">
           <div className=" mt-2">
             <a
-              href="https://rapidion.in/"
               target="_blank"
               rel="noopener noreferrer"
+              href="https://rapidion.in/"
             >
               <img
                 src="/images/portfolio/product1.png"
@@ -47,9 +47,9 @@ const Portfolio = () => {
         <div className="   text-gray-900">
           <div className=" mt-2">
             <a
-              href="https://www.houseofdal.com/"
               target="_blank"
               rel="noopener noreferrer"
+              href="https://www.houseofdal.com/"
             >
               <img
                 src="/images/portfolio/product2.png"
