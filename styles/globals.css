@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+span{
+    display: none;
+}
+ input:valid ~ span{
+     display: block;
+ }

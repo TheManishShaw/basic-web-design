@@ -1,6 +1,94 @@
-import React from 'react'
+import React, { useState } from 'react'
+import FormInput from './FormInput';
+import emailjs from "@emailjs/browser";
 
+const Result = () =>{
+  return (
+    <p>Your message send sucessfully</p>
+  )
+}
 const Contact = () => {
+  const [values, setValues] = useState({
+    fullname:"",
+    email:"",
+    phone:"",
+    message:"",
+    });
+    const inputs = [
+      {
+        id: 1,
+        name: "fullname",
+        type: "text",
+        placeholder: "Full Name",
+    
+        label: "Full Name*",
+      
+      },
+      {
+        id: 2,
+        name: "email",
+        type: "email",
+        placeholder: "example@yourmail.com",
+        errorMessage: "It should be a valid email address!",
+        label: "Email*",
+        required: true,
+      },
+      {
+        id: 3,
+        name: "phone",
+        type: "text",
+        placeholder: "+91 8777780732",
+        errorMessage: "It should be a valid number!",
+        pattern: "^+?([0-9]{2}))?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$",
+        label: "Phone*",
+        required: true,
+      },
+      {
+        id: 4,
+        name: "message",
+        type: "text",
+        placeholder: "Write something",
+        errorMessage: "Write something",
+        label: "Message*",
+        required: true,
+      },
+    ];
+    const handleSubmit = (e) =>{
+      e.preventDefault();
+    }
+    const onChange = (e) =>{
+        setValues({...values, [e.target.name]:e.target.value});
+    }
+
+    const [result, showResult] = useState(false);
+ const sendEmail = (e) => {
+   e.preventDefault();
+
+   emailjs
+     .sendForm(
+       "service_czht6ts",
+       "template_dq4h1zg",
+       e.target,
+       "K0eX0YkfwE6JNsQCA"
+     )
+     .then(
+       (result) => {
+         console.log(result.text);
+       },
+       (error) => {
+         console.log(error.text);
+       }
+     );
+     e.target.reset();
+     showResult(true);
+ };
+
+
+
+
+
+
+    console.log(values);
   return (
     <section id="contact" className="relative py-15 md:py-[80px] ">
       <div className="container px-4 ">
@@ -77,43 +165,15 @@ const Contact = () => {
               <h3 className="mb-8 text-2xl font-semibold md:text-[26px]">
                 Send us a Message
               </h3>
-              <form>
-                <div className="mb-6">
-                  <label className="block text-xs text-dark">Full Name*</label>
-                  <input
-                    type="text"
-                    name="fullName"
-                    placeholder="Manish Shaw"
-                    className="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"
+              <form onSubmit={sendEmail}>
+                {inputs.map((input) => (
+                  <FormInput
+                    key={input.id}
+                    {...input}
+                    value={values[input.name]}
+                    onChange={onChange}
                   />
-                </div>
-                <div className="mb-6">
-                  <label className="block text-xs text-dark">Email*</label>
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="example@yourmail.com"
-                    className="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block text-xs text-dark">Phone*</label>
-                  <input
-                    type="text"
-                    name="phone"
-                    placeholder="+91 1254454646"
-                    className="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label className="block text-xs text-dark">Message*</label>
-                  <textarea
-                    name="message"
-                    rows="1"
-                    placeholder="type your message here"
-                    className="w-full resize-none border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"
-                  ></textarea>
-                </div>
+                ))}
                 <div className="mb-0">
                   <button
                     type="submit"
@@ -122,6 +182,7 @@ const Contact = () => {
                     Send Message
                   </button>
                 </div>
+                <div>{ result ? <Result/> : null}</div>
               </form>
             </div>
           </div>
