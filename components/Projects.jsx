@@ -3,7 +3,7 @@ const products = [
   {
     id: 1,
     name: "Tecblic Website",
-    href: "#",
+    href: "https://tecblic.vercel.app/",
     imageSrc: "/images/portfolio/tecblic.png",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
@@ -11,7 +11,7 @@ const products = [
   {
     id: 2,
     name: "Portfolio Design",
-    href: "#",
+    href: "https://portfolio-puce-one-65.vercel.app/",
     imageSrc: "/images/portfolio/portfolio.png",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
@@ -19,7 +19,7 @@ const products = [
   {
     id: 3,
     name: "Landing page",
-    href: "#",
+    href: "https://react-portfolio-mocha-beta.vercel.app/",
     imageSrc: "/images/portfolio/landing-page.png",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
@@ -50,7 +50,13 @@ export default function Projects() {
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
           {products.map((product) => (
-            <a key={product.id} href={product.href} className="group">
+            <a
+              key={product.id}
+              target="_blank"
+              rel="noreferrer"
+              href={product.href}
+              className="group"
+            >
               <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                 <img
                   src={product.imageSrc}

@@ -20,9 +20,8 @@ const Contact = () => {
         name: "fullname",
         type: "text",
         placeholder: "Full Name",
-    
+        required: true,
         label: "Full Name*",
-      
       },
       {
         id: 2,
