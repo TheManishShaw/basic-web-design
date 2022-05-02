@@ -13,7 +13,7 @@ const Portfolio = () => {
                 Portfolio
               </span>
               <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">
-                Our Designs
+                Our Clients Projects
               </h2>
               <p className="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">
                 Dont take our word for it... Read what our customers feel about

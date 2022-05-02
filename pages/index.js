@@ -9,7 +9,7 @@ import NavBar from '../components/NavBar'
 import Pricing from '../components/Pricing'
 import styles from '../styles/Home.module.css'
 import Testimonial from '../components/Testimonial'
-import Team from '../components/Team'
+import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Portfolio from '../components/Portfolio'
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
       <About/>
   
     
-      <Testimonial/>
+      <Projects/>
     <Portfolio/>
       <Contact/>
       <Footer/>
