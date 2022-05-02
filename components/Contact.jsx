@@ -80,14 +80,11 @@ const Contact = () => {
      );
      e.target.reset();
      showResult(true);
+     
+
  };
 
 
-
-
-
-
-    console.log(values);
   return (
     <section id="contact" className="relative py-15 md:py-[80px] ">
       <div className="container px-4 ">
@@ -157,14 +154,14 @@ const Contact = () => {
 
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
             <div
-              className="wow fadeInUp rounded-lg bg-white py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px]"
+              className="wow fadeInUp rounded-lg bg-white py-10 px-8  sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px]"
               data-wow-delay=".2s
               "
             >
               <h3 className="mb-8 text-2xl font-semibold md:text-[26px]">
                 Send us a Message
               </h3>
-              <form onSubmit={sendEmail}>
+              <form onSubmit={sendEmail} >
                 {inputs.map((input) => (
                   <FormInput
                     key={input.id}
@@ -181,7 +178,7 @@ const Contact = () => {
                     Send Message
                   </button>
                 </div>
-                <div>{ result ? <Result/> : null}</div>
+                <div>{result ? <Result /> : null}</div>
               </form>
             </div>
           </div>
